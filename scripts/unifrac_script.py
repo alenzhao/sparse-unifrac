@@ -3,10 +3,10 @@
 from __future__ import division
 
 __author__ = "Juan Ansuategui"
-__copyright__ = "Copyright 2011, The QIIME project"
+__copyright__ = "Copyright 2013, The Clemente Lab"
 __credits__ = ["Juan Ansuategui"]
 __license__ = "GPL"
-__version__ = "1.5.0-dev"
+__version__ = "0.1.0-dev"
 __maintainer__ = "Juan Ansuategui"
 __email__ = "ansuacs@gmail.com"
 __status__ = "Development"
@@ -18,7 +18,8 @@ from cogent.maths.unifrac.fast_tree import UniFracTreeNode
 #from csmat import dict_to_csmat
 from sparse_unifrac.unifraccsmat import unifrac_mix, unifrac_mix_weighted, sum_dict
 
-from qiime.util import parse_command_line_parameters, make_option
+from cogent.util.option_parsing import (parse_command_line_parameters,
+                                        make_option)
 
 script_info = {}
 script_info['brief_description'] = """Calculate unifrac on one otu table """
