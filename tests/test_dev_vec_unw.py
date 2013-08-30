@@ -2,8 +2,7 @@
 
 import numpy
 from cogent.util.unit_test import TestCase, main
-#from unifrac import dev_vec
-from unifraccsmat import dev_vec
+from sparse_unifrac.unifraccsmat import dev_vec
 
 class DevVecUnweightedTests(TestCase):
 
