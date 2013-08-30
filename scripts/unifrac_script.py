@@ -16,7 +16,7 @@ from biom.parse import parse_biom_table
 from cogent.parse.tree import DndParser
 from cogent.maths.unifrac.fast_tree import UniFracTreeNode
 #from csmat import dict_to_csmat
-from unifraccsmat import unifrac_mix, unifrac_mix_weighted, sum_dict
+from sparse_unifrac.unifraccsmat import unifrac_mix, unifrac_mix_weighted, sum_dict
 
 from qiime.util import parse_command_line_parameters, make_option
 

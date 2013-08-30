@@ -4,7 +4,7 @@ import numpy
 from cogent.util.unit_test import TestCase, main
 from cogent.parse.tree import DndParser
 from cogent.maths.unifrac.fast_tree import UniFracTreeNode
-from tree import readtree
+from sparse_unifrac.tree import readtree
 
 class ReadTreeTests(TestCase):
 

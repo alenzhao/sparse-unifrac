@@ -2,7 +2,7 @@
 
 import numpy
 from cogent.util.unit_test import TestCase, main
-from unifraccsmat import calc_dist_weighted
+from sparse_unifrac.unifraccsmat import calc_dist_weighted
 
 class CalcDistWeightedTests(TestCase):
 
